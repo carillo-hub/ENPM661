@@ -6,6 +6,7 @@ The packages imported in the code are numpy, sys, cv2, and datetime
 Running the code:
 
 1A. To run in Spyder IDE (preferred)---execute the script with the "Run" icon. 
+
 	a. Tester MUST go into the code and manually key in the start and end points for the test. 
 	b. START points: variable name TestCaseXY = [x,y], where x and y are the standard orientation coordinates from the obstacle map
 	c. END points: variable name FinalStateXY = [x,y], where x and y are the standard orientation coordinates from the obstacle map
