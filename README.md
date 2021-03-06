@@ -30,6 +30,6 @@ Running the code:
 
 4. As a note, in the output NodePath.txt file, "Our road map" is the parent-child node map from initial to goal state. Nodes are stored as pixel coordinates, not standard x-y coordinates (only difference is the Y pixel coordinate will be inverted) 	 
 
-5. The output video is called "Sweeping.mp4"
+5. The output video is called "Sweeping.mp4".
 
 
