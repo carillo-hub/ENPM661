@@ -31,7 +31,7 @@ initial_stateID = tuple(initial_state)
 print("Test Case (x,y) starting point is: \n", TestCaseXY, file=open("NodePath.txt", "w"))
 
 #Test Case Final State:  [x,y] format
-FinalStateXY = [10, 100]  #<--------------------------TESTER PUT GOAL X,Y COORDINATE PT HERE
+FinalStateXY = [50, 50]  #<--------------------------TESTER PUT GOAL X,Y COORDINATE PT HERE
 y = yscale - FinalStateXY[1]
 x = FinalStateXY[0] 
 FinalState = [x, y]                                                             #x, y pixel coordinates
@@ -324,7 +324,7 @@ def in_poly(Node):
     #if inside rectangle, return trus.
     if side1 <=0 and side2 >=0 and side3 >=0 and side6 <=0 and sideCUT >=0:
         return True
-    if side3 <=0 and side4 >=0 and x <= x5 and sideCUT <=0:
+    if side4 >=0 and x <= x5 and sideCUT <=0:
         return True
     
     
@@ -396,7 +396,7 @@ def Plot_OurMap(OurMap):
     runtime = endtime - starttime
     print("\nRun time: ", runtime)
 
-    print("\nDone. Can see results in NodePath.txt!")
+    print("\nDone. Can see results in NodePath.txt and Sweeping.mp4!")
     sys.exit()
 
 
